@@ -4253,7 +4253,7 @@ case "$target" in
 	# cpuset parameters
 	echo 0-3 > /dev/cpuset/background/cpus
 	echo 0-3 > /dev/cpuset/system-background/cpus
-
+	echo 0-3 > /dev/cpuset/display/cpus
 	echo 0-6 > /dev/cpuset/foreground/cpus
 
 	# Turn off scheduler boost at the end
