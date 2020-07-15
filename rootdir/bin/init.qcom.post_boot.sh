@@ -4289,7 +4289,7 @@ case "$target" in
 	# echo 120 > /sys/module/cpu_boost/parameters/input_boost_ms
 	# else VENDOR_EDIT
 	echo "0:1324800" > /sys/module/cpu_boost/parameters/input_boost_freq
-	echo 120 > /sys/module/cpu_boost/parameters/input_boost_ms
+	echo 200 > /sys/module/cpu_boost/parameters/input_boost_ms
 	# endif VENDOR_EDIT
 
 	# ifdef VENDOR_EDIT
